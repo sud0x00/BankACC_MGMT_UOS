@@ -61,7 +61,7 @@ void edit(void)
     old=fopen("record.dat","r");
     newrec=fopen("new.dat","w");
 
-    printf("\nEnter the account no. of the customer whose info you want to change:");
+    printf("\nEnter the account no. :");
     scanf("%d",&upd.acc_no);
     while(fscanf(old,"%d %s %d %s %lf %s %f \n",add.acc_no,add.name,add.age,add.phone,add.amt)!=EOF)
     {
