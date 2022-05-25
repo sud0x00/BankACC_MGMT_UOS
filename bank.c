@@ -85,7 +85,7 @@ void edit(void)
 }
 
 void transact(void)
-{   int test=0;
+{   int test=0,choice;
     FILE *old,*newrec;
     old=fopen("record.dat","r");
     newrec=fopen("new.dat","w");
