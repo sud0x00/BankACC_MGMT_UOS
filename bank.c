@@ -33,6 +33,7 @@ void new_acc()
     fprintf(ptr,"%d %s %d %s %f \n",add.acc_no,add.name,add.age,add.phone,add.amt);
     fclose(ptr);
     printf("\nAccount created successfully!");
+    menu();
 }
 void view_list()
 {
