@@ -16,7 +16,6 @@ struct {
 void new_acc()
 
 {
-    int choice;
     FILE *ptr;
     ptr=fopen("record.dat","a+");
     system("cls");
