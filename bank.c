@@ -56,7 +56,7 @@ void view_list()
 }
 void edit(void)
 {
-    int x,test=0;
+    int test=0;
     FILE *old,*newrec;
     old=fopen("record.dat","r");
     newrec=fopen("new.dat","w");
